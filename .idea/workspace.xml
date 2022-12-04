@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ddf362a-79a3-478d-a440-6bf792553ade" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
+    <list default="true" id="1ddf362a-79a3-478d-a440-6bf792553ade" name="Changes" comment="homework2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +32,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Legioner/Desktop/Hillel/Java Pro/lesson2/homework2/src",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -48,13 +43,30 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1ddf362a-79a3-478d-a440-6bf792553ade" name="Changes" comment="" />
+      <changelist id="1ddf362a-79a3-478d-a440-6bf792553ade" name="Changes" comment="homework2" />
       <created>1670155276663</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670155276663</updated>
       <workItem from="1670155278089" duration="312000" />
+      <workItem from="1670157947748" duration="1109000" />
+      <workItem from="1670159098232" duration="536000" />
     </task>
+    <task id="LOCAL-00001" summary="homework2">
+      <created>1670158053571</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670158053571</updated>
+    </task>
+    <task id="LOCAL-00002" summary="homework2">
+      <created>1670158264283</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670158264283</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,5 +82,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="homework2" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework2" />
   </component>
 </project>

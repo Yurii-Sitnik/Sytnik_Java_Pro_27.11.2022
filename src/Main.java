@@ -10,15 +10,15 @@ public class Main {
         System.out.println("area square " + square.getArea());
 
         GeometricFigure[] geometricFigures = new GeometricFigure[]{
-                new Circle(3),
-                new Triangle(5, 4),
-                new Square(5),
+                circle1,
+                triangle1,
+                square,
         };
         double sum = 0;
 
         for (int i = 0; i < geometricFigures.length; i++) {
         sum += geometricFigures[i].getArea();}
-            System.out.println("the sum of the areas of all geometric figures  "+ sum);
+            System.out.println("the sum of the areas of all geometric figures  "+ String.format("%.2f",sum));
         }
     }
 

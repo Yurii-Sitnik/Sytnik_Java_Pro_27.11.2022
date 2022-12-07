@@ -1,5 +1,6 @@
 public interface GeometricFigure {
-    int figureArea();
-    }
+  public double getArea();
+}
+
 
 

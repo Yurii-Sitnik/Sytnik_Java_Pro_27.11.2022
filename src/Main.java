@@ -1,0 +1,31 @@
+
+public class Main {
+    public static void main(String[] args) {
+        Circle circle1 = new Circle(3.0);
+        Triangle triangle1 = new Triangle(4, 5);
+        Square square = new Square(5);
+
+        System.out.println("площа кола " + String.format("%.2f",circle1.getArea()));
+        System.out.println("площа трикутника " + triangle1.getArea());
+        System.out.println("площа квадрата " + square.getArea());
+
+        GeometricFigure[] geometricFigures = new GeometricFigure[]{
+                new Circle(3),
+                new Triangle(5, 4),
+                new Square(5),
+        };
+        double sum = 0;
+
+        for (int i = 0; i < geometricFigures.length; i++) {
+        sum += geometricFigures[i].getArea();}
+            System.out.println("сума площ всіх геометричних фігур "+ sum);
+        }
+    }
+
+
+
+
+
+
+
+

@@ -5,9 +5,9 @@ public class Main {
         Triangle triangle1 = new Triangle(4, 5);
         Square square = new Square(5);
 
-        System.out.println("площа кола " + String.format("%.2f",circle1.getArea()));
-        System.out.println("площа трикутника " + triangle1.getArea());
-        System.out.println("площа квадрата " + square.getArea());
+        System.out.println("area circle " + String.format("%.2f",circle1.getArea()));
+        System.out.println("area triangle " + triangle1.getArea());
+        System.out.println("area square " + square.getArea());
 
         GeometricFigure[] geometricFigures = new GeometricFigure[]{
                 new Circle(3),
@@ -18,7 +18,7 @@ public class Main {
 
         for (int i = 0; i < geometricFigures.length; i++) {
         sum += geometricFigures[i].getArea();}
-            System.out.println("сума площ всіх геометричних фігур "+ sum);
+            System.out.println("the sum of the areas of all geometric figures  "+ sum);
         }
     }
 

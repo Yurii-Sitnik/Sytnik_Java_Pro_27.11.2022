@@ -18,7 +18,7 @@ public class Main {
 
         for (int i = 0; i < geometricFigures.length; i++) {
         sum += geometricFigures[i].getArea();}
-            System.out.println("the sum of the areas of all geometric figures  "+ sum);
+            System.out.println("the sum of the areas of all geometric figures  "+ String.format("%.2f",sum));
         }
     }
 

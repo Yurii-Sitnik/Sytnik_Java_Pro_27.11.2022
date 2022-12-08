@@ -1,34 +1,27 @@
 public class Main {
     public static void main(String[] args) {
-        Robot robot = new Robot();
-        robot.run(200);
-        robot.jumping(1);
+        Human human = new Human("Niki", 4, 100);
+        Robot robot = new Robot("Rob", 5, 350);
+        Cat cat = new Cat("Murka", 6, 600);
 
-        Cat cat = new Cat();
-        cat.run(20);
-        cat.jumping(1);
+        Wall wall = new Wall(3);
+        Treadmill treadmill = new Treadmill(300);
 
-        Human human = new Human();
-        human.run(150);
-        human.jumping(3);
+        Obstacle[] obstacles = new Obstacle[]{wall, treadmill};
+        Participant[] participants = new Participant[]{human, robot, cat};
 
-        Participant[] participant = new Participant[]{
-                new Robot(),
-                new Cat(),
-                new Human(),
-        };
-        Let []let=new Let[]{
-                new Wall(),
-                new Treadmill(),
-        };
-        for (int i = 0; i<participant.length;i++){
-            for (int j=0;j<let.length;j++);
+        for (Participant participant : participants) {
+            System.out.println("New participant " + participant.getName());
+            {
+                for (Obstacle obstacle : obstacles) {
+                    System.out.println("New obstacle " + obstacle.getName());
+                    obstacle.overcome(participant);
+                    if (participant.isFailed()) {
+                        break;
+                    }
+                }
+            }
         }
-
-
-
-
     }
-
 }
 

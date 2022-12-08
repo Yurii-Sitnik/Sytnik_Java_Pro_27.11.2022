@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class Wall {
+public class Wall implements Let{
+    public final int maxHeight = 3;
+
+    @Override
+    public void overcome() {
+
+    }
 }

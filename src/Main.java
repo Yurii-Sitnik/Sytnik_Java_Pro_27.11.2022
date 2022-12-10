@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Human human = new Human("Niki", 4, 100);
+        Human human = new Human("Niki", 1, 100);
         Robot robot = new Robot("Rob", 5, 350);
         Cat cat = new Cat("Murka", 6, 600);
 

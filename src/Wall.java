@@ -5,7 +5,7 @@ public class Wall extends Obstacle {
     }
     @Override
     public void overcome(Participant participant) {
-        if (participant.getMaxJump()>length){
+        if (participant.getMaxJump()>height){
             participant.jump();
             System.out.println("participant" + participant.getName()+" passed the obstacle "+ getName() + " at a height "+ height);
         }else {

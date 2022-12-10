@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f669eba3-d34e-4214-8440-789e68c23009" name="Changes" comment="homework4_2">
-      <change afterPath="$PROJECT_DIR$/src/Obstacle.java" afterDir="false" />
+    <list default="true" id="72eb18fc-c59f-4c15-b577-3932d8525c77" name="Changes" comment="Merge remote-tracking branch 'origin/homework4_2' into homework4_2&#10;#&#9;.idea/workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Let.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Participant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Participant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Treadmill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Treadmill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wall.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +63,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f669eba3-d34e-4214-8440-789e68c23009" name="Changes" comment="" />
+      <changelist id="72eb18fc-c59f-4c15-b577-3932d8525c77" name="Changes" comment="homework4_2" />
       <created>1670445892681</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -82,6 +75,8 @@
       <workItem from="1670604558955" duration="1594000" />
       <workItem from="1670670792546" duration="9842000" />
       <workItem from="1670683159953" duration="3355000" />
+      <workItem from="1670694084676" duration="1097000" />
+      <workItem from="1670695212743" duration="507000" />
     </task>
     <task id="LOCAL-00001" summary="homework4_2">
       <created>1670530823616</created>

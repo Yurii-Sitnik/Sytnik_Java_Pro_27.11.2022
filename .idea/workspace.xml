@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ccb2aaa5-3bba-46a5-a78c-8a89adf1da81" name="Changes" comment="homework6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorldGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorldGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Legioner/Desktop/Hillel/Java Pro/lesson4/homework6",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Legioner/Desktop/Hillel/Java Pro/lesson4/homework6&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.WorldGame">
+}</component>
+  <component name="RunManager" selected="Application.Homework6">
     <configuration name="Homework6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework6" />
       <module name="homework6" />
@@ -60,8 +60,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WorldGame" />
         <item itemvalue="Application.Homework6" />
+        <item itemvalue="Application.WorldGame" />
       </list>
     </recent_temporary>
   </component>
@@ -75,7 +75,8 @@
       <updated>1670778808211</updated>
       <workItem from="1670778809685" duration="2281000" />
       <workItem from="1670867577692" duration="8030000" />
-      <workItem from="1671131384542" duration="690000" />
+      <workItem from="1671131384542" duration="941000" />
+      <workItem from="1671132358921" duration="337000" />
     </task>
     <task id="LOCAL-00001" summary="homework6">
       <created>1670782273958</created>
@@ -98,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671131438410</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="homework6">
+      <created>1671132265798</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671132265798</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

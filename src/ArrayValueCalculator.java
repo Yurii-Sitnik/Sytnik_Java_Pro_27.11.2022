@@ -45,7 +45,6 @@ public class ArrayValueCalculator {
         }
         return sum;
     }
-
 }
 
 

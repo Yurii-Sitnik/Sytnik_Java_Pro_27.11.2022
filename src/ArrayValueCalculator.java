@@ -7,6 +7,7 @@ public class ArrayValueCalculator {
                 {"1", "1", "1", "1"},
                 {"1", "1", "1", "1"},
                 {"1", "1", "1", "1"},
+                {"1", "1", "1", "1"},
         };
         //String[][] array = new String[][]{
         //        {"1", "1", "1", "1"},
@@ -29,21 +30,23 @@ public class ArrayValueCalculator {
             exception.printStackTrace();
         }
     }
+
     private static int doCalc(String[][] arrays) throws ArrayDataException, ArraySizeException {
         if (arrays.length != 4) {
             throw new ArraySizeException();
-        }
-        int sum = 0;
-        for (int i = 0; i < arrays.length; i++) {
-            for (int j = 0; j < arrays[i].length; j++) {
-                try {
-                    sum += Integer.parseInt(arrays[i][j]);
-                } catch (NumberFormatException exception) {
-                    throw new ArrayDataException(i, j);
+        } else {
+            int sum = 0;
+            for (int i = 0; i < arrays.length; i++) {
+                for (int j = 0; j < arrays[i].length; j++) {
+                    try {
+                        sum += Integer.parseInt(arrays[i][j]);
+                    } catch (NumberFormatException exception) {
+                        throw new ArrayDataException(i, j);
+                    }
                 }
             }
+            return sum;
         }
-        return sum;
     }
 }
 

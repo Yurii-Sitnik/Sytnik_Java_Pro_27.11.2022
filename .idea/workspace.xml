@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc16a1d8-40a8-4567-8306-15bd86b279cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayValueCalculator.java" afterDir="false" />
-    </list>
+    <list default="true" id="dc16a1d8-40a8-4567-8306-15bd86b279cf" name="Changes" comment="homework7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +15,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -38,6 +35,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
@@ -45,9 +43,16 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ArrayValueCalculator">
     <configuration name="ArrayValueCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayValueCalculator" />
+      <module name="homework7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dgfdg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dgfdg" />
       <module name="homework7" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -56,6 +61,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ArrayValueCalculator" />
+        <item itemvalue="Application.dgfdg" />
       </list>
     </recent_temporary>
   </component>
@@ -70,8 +76,25 @@
       <workItem from="1671134068737" duration="3144000" />
       <workItem from="1671262666272" duration="169000" />
       <workItem from="1671391333488" duration="11842000" />
-      <workItem from="1671473885025" duration="5147000" />
+      <workItem from="1671473885025" duration="5593000" />
+      <workItem from="1671558559625" duration="8803000" />
+      <workItem from="1671604293234" duration="16483000" />
     </task>
+    <task id="LOCAL-00001" summary="homework7">
+      <created>1671479691640</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671479691640</updated>
+    </task>
+    <task id="LOCAL-00002" summary="homework7">
+      <created>1671622769848</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671622769848</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +110,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="homework7" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework7" />
   </component>
 </project>

@@ -1,45 +1,80 @@
 import java.util.Arrays;
 
 public class ArrayValueCalculator {
-    public static <ArrayDataException> void main(String[] args) {
-        String[][] array = new String[4][4];
-        array[0][0] = "1";
-        array[0][1] = "1";
-        array[0][2] = "1";
-        array[0][3] = "1";
+    public static void main(String[] args) {
+        String[][] array = new String[][]{
+                {"1", "1", "1", "1"},
+                {"1", "1", "1", "1"},
+                {"1", "1", "1", "1"},
+                {"1", "1", "1", "1"},
+        };
+        //String[][] array = new String[][]{
+        //        {"1", "1", "1", "1"},
+        //        {"1", "a", "1", "1"},
+        //        {"1", "1", "1", "1"},
+        //        {"1", "1", "1", "1"},
+        // };
 
-        array[1][0] = "1";
-        array[1][1] = "1";
-        array[1][2] = "1";
-        array[1][3] = "1";
+        //String[][] array = new String[][]{
+        //        {"1", "1", "1","1"},
+        //        {"1", "1", "1","1"},
+        //        {"1", "1", "1","1"},
+        //        {"1", "1", "1","1"},
+        //        {"1", "1", "1","1"},
+        //};
 
-        array[2][0] = "1";
-        array[2][1] = "1";
-        array[2][2] = "1";
-        array[2][3] = "1";
-
-        array[3][0] = "1";
-        array[3][1] = "1";
-        array[3][2] = "1";
-        array[3][3] = "1";
-
-        int res = 0;
-        res = doCalk(array);
         try {
-            System.out.println(res);
-        } catch (NumberFormatException exception) {
+            System.out.println("Sum all elements of massive " + doCalc(array));
+        } catch (ArraySizeException | ArrayDataException exception) {
             exception.printStackTrace();
         }
     }
-    public static int doCalk(String[][] array) {
+    private static int doCalc(String[][] arrays) throws ArrayDataException, ArraySizeException {
+        if (arrays.length != 4) {
+            throw new ArraySizeException();
+        }
         int sum = 0;
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++)
-                sum += Integer.parseInt(array[i][j]);
+        for (int i = 0; i < arrays.length; i++) {
+            for (int j = 0; j < arrays[i].length; j++) {
+                try {
+                    sum += Integer.parseInt(arrays[i][j]);
+                } catch (NumberFormatException exception) {
+                    throw new ArrayDataException(i, j);
+                }
+            }
         }
         return sum;
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

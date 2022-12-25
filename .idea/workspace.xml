@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dc16a1d8-40a8-4567-8306-15bd86b279cf" name="Changes" comment="Merge remote-tracking branch 'origin/homework7' into homework7&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayDataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayDataException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArrayValueCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayValueCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +67,8 @@
       <workItem from="1671262666272" duration="169000" />
       <workItem from="1671391333488" duration="11842000" />
       <workItem from="1671473885025" duration="5147000" />
+      <workItem from="1671625760273" duration="624000" />
+      <workItem from="1671734870460" duration="4167000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/homework7' into homework7&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <created>1671622949133</created>
@@ -74,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671622949133</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/homework7' into homework7&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1671624404503</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671624404503</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

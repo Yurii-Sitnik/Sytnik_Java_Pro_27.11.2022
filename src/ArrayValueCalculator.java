@@ -7,7 +7,6 @@ public class ArrayValueCalculator {
                 {"1", "1", "1", "1"},
                 {"1", "1", "1", "1"},
                 {"1", "1", "1", "1"},
-                {"1", "1", "1", "1"},
         };
         //String[][] array = new String[][]{
         //        {"1", "1", "1", "1"},
@@ -27,7 +26,7 @@ public class ArrayValueCalculator {
         try {
             System.out.println("Sum all elements of massive " + doCalc(array));
         } catch (ArraySizeException | ArrayDataException exception) {
-            exception.printStackTrace();
+           exception.printStackTrace();
         }
     }
 
@@ -41,7 +40,7 @@ public class ArrayValueCalculator {
                     try {
                         sum += Integer.parseInt(arrays[i][j]);
                     } catch (NumberFormatException exception) {
-                        throw new ArrayDataException(i, j);
+                        throw new ArrayDataException("ArrayDataException in line " + i + " column " + j + " element of the array");
                     }
                 }
             }

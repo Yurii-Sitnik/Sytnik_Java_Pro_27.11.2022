@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98c373a8-4789-4fff-bc4b-004334d6cd5a" name="Changes" comment="homework8">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="98c373a8-4789-4fff-bc4b-004334d6cd5a" name="Changes" comment="homework8" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,11 +16,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="homework8" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -66,9 +59,6 @@
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.FileLogger" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FileLogger" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -85,7 +75,7 @@
       <workItem from="1672067393415" duration="19684000" />
       <workItem from="1672167447106" duration="3974000" />
       <workItem from="1672250383056" duration="5906000" />
-      <workItem from="1672335508607" duration="11781000" />
+      <workItem from="1672335508607" duration="10675000" />
     </task>
     <task id="LOCAL-00001" summary="homework8">
       <created>1671960825668</created>
@@ -94,49 +84,7 @@
       <option name="project" value="LOCAL" />
       <updated>1671960825668</updated>
     </task>
-    <task id="LOCAL-00002" summary="homework8">
-      <created>1672347334289</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1672347334289</updated>
-    </task>
-    <task id="LOCAL-00003" summary="homework8">
-      <created>1672347426080</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1672347426080</updated>
-    </task>
-    <task id="LOCAL-00004" summary="homework8">
-      <created>1672347543292</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1672347543292</updated>
-    </task>
-    <task id="LOCAL-00005" summary="homework8">
-      <created>1672347602884</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1672347602884</updated>
-    </task>
-    <task id="LOCAL-00006" summary="homework8">
-      <created>1672347739285</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1672347739285</updated>
-    </task>
-    <task id="LOCAL-00007" summary="homework8">
-      <created>1672347841571</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1672347841571</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

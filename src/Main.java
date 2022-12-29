@@ -9,7 +9,7 @@ public class Main {
             try {
                 FileLogger.log("Log text\n");
             } catch (FileMaxSizeReachedException ex) {
-                System.out.println(ex.getMessage());
+                ex.printStackTrace();
             }
         }
     }

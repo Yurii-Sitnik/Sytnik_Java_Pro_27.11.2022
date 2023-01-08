@@ -17,8 +17,8 @@ public class MyTread extends Thread {
             array[i] = (float) (array[i] * Math.sin(0.2f + i / 5) *
                     Math.cos(0.2f + i / 5) * Math.cos(0.4f + i / 2));
         }
-        long finish = System.currentTimeMillis() - start;
+        long finish = System.currentTimeMillis();
 
-        System.out.println(finish + " ms");
+        System.out.println(finish - start + " ms");
     }
 }
